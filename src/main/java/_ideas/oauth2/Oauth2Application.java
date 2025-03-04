@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Oauth2Application {
 
 	public static void main(String[] args) {
+		EnvLoader.loadEnv();
 		SpringApplication.run(Oauth2Application.class, args);
 	}
-
 }
